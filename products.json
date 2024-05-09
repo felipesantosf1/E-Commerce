@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "name": "Camisa de Time",
+        "price": 25.99,
+        "cart": 22.99,
+        "quantity" : 1,
+        "image": "produto_img/camisa.webp",
+        "description": "O trecho padrão original de Lorem Ipsum, usado desde o século XVI, está reproduzido abaixo para os interessados. Seções 1.10.32 e 1.10.33 de 'de Finibus Bonorum et Malorum' de Cicero também foram reproduzidas abaixo em sua forma exata original, acompanhada das versões para o inglês da tradução feita por H. Rackham em 1914."
+    },
+    {
+        "id": 2,
+        "name": "Perfume",
+        "price": 19.99,
+        "cart": 17.99,
+        "quantity" : 1,
+        "image": "produto_img/perfume.webp",
+        "description": "O trecho padrão original de Lorem Ipsum, usado desde o século XVI, está reproduzido abaixo para os interessados. Seções 1.10.32 e 1.10.33 de 'de Finibus Bonorum et Malorum' de Cicero também foram reproduzidas abaixo em sua forma exata original, acompanhada das versões para o inglês da tradução feita por H. Rackham em 1914."
+    },
+    {
+        "id": 3,
+        "name": "Cachorro Robo",
+        "price": 500.00,
+        "cart": 450.00,
+        "quantity" : 1,
+        "image": "produto_img/robo_cachorro.jpg",
+        "description": "O trecho padrão original de Lorem Ipsum, usado desde o século XVI, está reproduzido abaixo para os interessados. Seções 1.10.32 e 1.10.33 de 'de Finibus Bonorum et Malorum' de Cicero também foram reproduzidas abaixo em sua forma exata original, acompanhada das versões para o inglês da tradução feita por H. Rackham em 1914."
+    },
+    {
+        "id": 4,
+        "name": "Sapato Preto",
+        "price": 54.50,
+        "cart": 49.50,
+        "quantity" : 1,
+        "image": "produto_img/sapato_preto.jpg",
+        "description": "O trecho padrão original de Lorem Ipsum, usado desde o século XVI, está reproduzido abaixo para os interessados. Seções 1.10.32 e 1.10.33 de 'de Finibus Bonorum et Malorum' de Cicero também foram reproduzidas abaixo em sua forma exata original, acompanhada das versões para o inglês da tradução feita por H. Rackham em 1914."
+    }
+]
+

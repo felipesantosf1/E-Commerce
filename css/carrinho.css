@@ -1,0 +1,236 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    height: 100vh;
+    background-color: rgb(29, 29, 29);
+}
+
+/* HEADER */
+header .interface{
+    width: 100%;
+    height: 16vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px 10px 30px;
+}
+
+.logo_site{
+    width: 100%;
+}
+
+.logo_site a{
+    text-decoration: none;
+    color: orangered;
+}
+
+#container_input{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 0px 10px 0px 0px; /*MUDAR NO OUTRO O PADDI trocar com de cima*/
+    overflow: hidden;
+    border-radius: 10px;
+}
+#input_pesquisa{
+    width: 100%;
+    padding: 6px 5px 6px 10px;
+    border: 0px;
+    font-size: 16px;
+}
+#input_pesquisa:focus{
+    outline: none;
+}
+#icon_lupa{
+    color: brown;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.btn_header{
+    margin-left: 30px;
+    display: flex;
+    gap: 40px;
+}
+.btn_header i{
+    color: brown;
+    font-size: 25px;
+    cursor: pointer;
+}
+.btn_header i:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+/*MAIN*/
+main .interface{
+    padding: 10px 30px 10px 30px;
+    display: flex;
+    gap: 5px;
+}
+.container_list{
+    width: 100%;
+    border-collapse: collapse;
+    color: white;
+}
+
+
+.name_list{
+    text-transform: uppercase;
+    border: 1px solid #666;
+    padding: 10px;
+}
+.price,
+.qtn{
+    width: 20%;
+}
+
+
+.iten_list{
+    border: 1px solid #666;
+    text-align: center;
+}
+.tbody-info{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 5px;
+}
+.tbody-info img{
+    width: 100px;
+    height: 100px;
+}
+.container-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: rgb(26, 26, 26);
+    border-radius: 5px;
+}
+.input-number input{
+    background-color: rgb(26, 26, 26);
+    text-align: center;
+    border: 0px;
+    font-size: 16px;
+    width: 50px;
+    color: white;
+}
+.input-number input:focus{
+    outline: none;
+}
+.input-number input::-webkit-inner-spin-button,
+.input-number input::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+.input-number i{
+    padding: 4px;
+    cursor: pointer;
+}
+.input-number i:hover{
+    color: rgba(255, 255, 255, 0.568);
+}
+.fa-trash{
+    padding: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: brown;
+    font-size: 25px;
+}
+.fa-trash:hover{
+    padding: 15px;
+    border-radius: 70%;
+    background-color: rgb(255, 255, 255, 0.171);   
+}
+
+.container_box{
+    position: sticky;
+    top: 20px;
+}
+.buy-box{
+    border: 1px solid #666;
+    color: white;
+    width: 300px;
+}
+.title_comp{
+   text-align: center;
+   border: 1px solid #666; 
+}
+.info_valor{
+    padding: 10px;
+    border: 1px solid #666;
+}
+.info_valor span{
+    color: green;
+}
+
+.info_frete{
+    padding: 10px;
+    border: 1px solid #666;
+}
+.container_frete{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.container_frete input{
+    border: 0px;
+    padding: 5px 10px 5px 10px;
+    font-size: 17px;
+    border-radius: 5px;
+}
+.container_frete input:focus{
+    outline: none;
+}
+#btn_frete{
+    border: 0;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: brown;
+    font-weight: bolder;
+}
+#btn_frete:hover{
+    background-color: brown;
+    color: white;
+}
+
+.ende{
+    margin-top: 20px;
+}
+
+.total_box{
+    padding: 10px;
+    border: 1px solid #666;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.btn_buy{
+    margin-top: 10px;
+    border: 1px solid green;
+    color: green;
+    width: 100%;
+    font-size: 20px;
+    background-color: transparent;
+    padding: 10px;
+    cursor: pointer;
+}
+.btn_buy:hover{
+    background-color: green;
+    border: 1px solid green;
+    color: white;
+}
